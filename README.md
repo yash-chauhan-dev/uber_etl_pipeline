@@ -8,7 +8,7 @@ It leverages a range of GCP technologies, including Storage, Compute Engine, Mag
 
 ## System Architecture
 
-! [System Architecture Diagram](uber_architecture.png)
+![System Architecture Diagram](uber_architecture.png)
 
 Key Components:
 
@@ -27,7 +27,7 @@ Data Flow:
 
 ## Data Model
 
-! [Fact-Dimension Table Diagram](factVsDim.png)
+![Fact-Dimension Table Diagram](factVsDim.png)
 
 Key Tables:
 
@@ -41,7 +41,7 @@ Key Tables:
     - pickup_location_dim
     - drop_off_location_dim
 
-! [Data Table Diagram](data_diagram.png)
+![Data Table Diagram](data_diagram.png)
 
 Key Tables and Relationships:
 
@@ -55,11 +55,11 @@ Key Tables and Relationships:
 
 Mage orchestrates the ETL process, handling data extraction, transformation, and loading into BigQuery.
 
-! [Data Pipeline](mage_pipeline.png)
+![Data Pipeline](mage_pipeline.png)
 
 ## Data Visualization
 
-! [Dashboard Screenshot](lookerDashboard.png)
+![Dashboard Screenshot](lookerDashboard.png)
 
 Key Visualizations:
 
