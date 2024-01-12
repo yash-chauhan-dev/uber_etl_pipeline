@@ -27,7 +27,7 @@ Data Flow:
 
 ## Data Model
 
-![Fact-Dimension Table Diagram](factVSDim.png)
+![Fact-Dimension Table Diagram](factVSdim.png)
 
 Key Tables:
 
