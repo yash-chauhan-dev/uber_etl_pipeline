@@ -41,16 +41,6 @@ Key Tables:
     - pickup_location_dim
     - drop_off_location_dim
 
-![Data Table Diagram](data_diagram.png)
-
-Key Tables and Relationships:
-
-- Customers Table: Stores customer information (id, name, email, etc.)
-- Orders Table: Records order details (id, customer_id, product_id, quantity, amount)
-- Stores Table: Stores store information (id, city, country)
-- Products Table: Stores product information (id, name, price)
-- Dates Table: Stores date information (id, month, year, quarter) for date-related analysis.
-
 ## Data Pipeline
 
 Mage orchestrates the ETL process, handling data extraction, transformation, and loading into BigQuery.
@@ -59,7 +49,7 @@ Mage orchestrates the ETL process, handling data extraction, transformation, and
 
 ## Data Visualization
 
-![Dashboard Screenshot](lookerDashboard.png)
+![Dashboard Screenshot](lookerDashboard.PNG)
 
 Key Visualizations:
 
